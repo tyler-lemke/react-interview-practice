@@ -3,14 +3,13 @@ import './style.css';
 
 export default function App() {
   // get the data from this api - https://picsum.photos/v2/list
+  //hint: use useEffect to grab the data
+  // push that data into a Image List Component (do this in ImageList.js)
 
-  // push that data into a list of Image Componentss
-
-  // each image component will display the author name and the image itself
+  // each image component (Image.js) will display the author name and the image itself
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <ImageList />
     </div>
   );
 }

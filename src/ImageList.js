@@ -1,0 +1,1 @@
+ // each image component will display the author name and the image itself
