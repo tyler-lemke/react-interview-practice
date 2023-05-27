@@ -7,6 +7,7 @@ export default function App() {
   // push that data into a Image List Component (do this in ImageList.js)
 
   // each image component (Image.js) will display the author name and the image itself
+  // in Image.js - add event handlers that remove the image if you click on it or click on a button
   return (
     <div>
       <ImageList />
